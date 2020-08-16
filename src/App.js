@@ -6,6 +6,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
 import Education from './pages/education';
+import Resume from './pages/resume';
 import Navbar from './components/nav';
 
 
@@ -23,11 +24,14 @@ function App() {
         <Route path="/contact">
           <Contact />
         </Route>
-        <Route path="/projects">
-          <Projects />
-        </Route>
         <Route path="/education">
           <Education />
+        </Route>
+        <Route path="/resume">
+          <Resume />
+        </Route>
+        <Route path="/projects">
+          <Projects />
         </Route>
       </Switch>
     </Router>

@@ -11,8 +11,9 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <Link className="nav-item nav-link" to="/about">About</Link>
-                    <Link className="nav-item nav-link" to="/education">Education</Link>
                     <Link className="nav-item nav-link" to="/contact">Contact</Link>
+                    <Link className="nav-item nav-link" to="/education">Education</Link>
+                    <Link className="nav-item nav-link" to="/resume">Resume</Link>
                     <Link className="nav-item nav-link" to="/projects">Projects</Link>
                 </div>
             </div>
