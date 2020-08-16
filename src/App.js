@@ -7,7 +7,8 @@ import Contact from './pages/contact';
 import Projects from './pages/projects';
 import Education from './pages/education';
 import Resume from './pages/resume';
-import Navbar from './components/nav';
+import Navbar from './components/Nav';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
           <Projects />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 }
