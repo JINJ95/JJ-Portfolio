@@ -10,7 +10,7 @@ function Projects({ history }) {
 
     return (
         <div>
-            <Jumbotron title="Full-Stack Web Applications" subtitle="Web applications I have built or contributed to"/>
+            <Jumbotron title="Web Applications" />
             {/* <button type="button" className="btn btn-secondary" onClick={() => goto()}>University Education</button> */}
             <ProjectContainer />
         </div>
