@@ -1,14 +1,10 @@
 import React from 'react'
+import Jumbotron from '../components/Jumbotron'
 
 export default function About() {
     return (
-        <>
-            <div className="jumbotron jumbotron-fluid bg-dark">
-                <div className="container">
-                    <h1 className="display-4 ">Jordan Johnson</h1>
-                    <p className="lead">Full-Stack Web Developer</p>
-                </div>
-            </div>
-        </>
-    );
+        <div className="container">
+            <Jumbotron title="Jordan Johnson" subtitle="Full-Stack Web Developer" />
+        </div>
+    )
 }

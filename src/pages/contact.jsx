@@ -1,14 +1,11 @@
 import React from 'react'
+import Jumbotron from '../components/Jumbotron'
 
 export default function Contact() {
     return (
         <div className="container">
+            <Jumbotron title="Connect With Me Anytime" />
             <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-sm d-flex justify-content-sm-center">
-                        <h2 className="py-3">Connect With Me Anytime!</h2>
-                    </div>
-                </div>
                 <div className="row">
                     <div className="col-6 container justify-content-center">
                         <form action="https://formspree.io/mnqgpjvd" method="POST">

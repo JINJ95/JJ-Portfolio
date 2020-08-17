@@ -1,14 +1,13 @@
 import React from "react"
 
 function Jumbotron(props) {
-    return(
-    <div className="jumbotron">
-        <h1 className="display-4">Welcome, {props.name}'s Portfolio!</h1>
-        <p>I look forward to creating more software that improves our quality of life!</p>
-        <hr className="my-4" />
-        <p className="lead">Check out my projects!</p>
-        <a className="btn btn-primary btn-lg" href="/" role="button">Learn more</a>
-    </div>
+    return (
+        <div className="jumbotron jumbotron-fluid bg-dark">
+            <div className="container">
+                <h1 className="display-4 ">{props.title}</h1>
+                <p className="lead">{props.subtitle}</p>
+            </div>
+        </div>
     )
 }
 

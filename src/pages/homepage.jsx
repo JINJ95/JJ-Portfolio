@@ -1,5 +1,5 @@
 import React from 'react'
-// import Jumbotron from '../components/Jumbotron';
+import Jumbotron from '../components/Jumbotron';
 
 class Clock extends React.Component {
     constructor(props) {
@@ -36,8 +36,8 @@ class Clock extends React.Component {
 export default function Homepage() {
     return (
         <div className="container">
+            <Jumbotron title="Welcome" subtitle="Thank you for stopping by I look forward to working with you! =]"/>
             <Clock />
-            {/* <Jumbotron name="Jordan" /> */}
         </div>
     );
 }
