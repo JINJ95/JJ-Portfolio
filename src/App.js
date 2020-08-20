@@ -35,6 +35,9 @@ function App() {
         <Route path="/projects">
           <Projects />
         </Route>
+        <Route path="*">
+          <Homepage />
+        </Route>
       </Switch>
       <Footer />
     </Router>
