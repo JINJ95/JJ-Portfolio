@@ -23,7 +23,7 @@ export default function About() {
                 <div className="col">
                     <div className="card bg-transparent" style={{ width: 18 + 'em' }}>
                         <div className="card-body">
-                            <p style={{ color: 'white' }} className="card-text">I am Motivated and Fascinated about Living Life and Creating Software that improves our quality of life!</p>
+                            <p style={{ color: 'white' }} className="card-text">I am Motivated and Fascinated about Living Life and Creating Software that improves our Quality of Life!</p>
                         </div>
                         <img src={SkynI} className="card-img-top" alt="Me" />
                     </div>

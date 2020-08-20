@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../assets/Jordan Johnson Resume 2020.pdf'
+import resume from '../assets/pictures/Jordan Johnson Resume 2020.pdf'
 import Jumbotron from '../components/Jumbotron'
 
 export default function Resume() {
