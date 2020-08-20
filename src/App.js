@@ -17,6 +17,9 @@ function App() {
       <Navbar />
       <br></br>
       <Switch>
+        <Route exact path="/JJ-Portfolio/">
+          <Homepage />
+        </Route>
         <Route exact path="/">
           <Homepage />
         </Route>
@@ -34,9 +37,6 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
-        </Route>
-        <Route path="*">
-          <Homepage />
         </Route>
       </Switch>
       <Footer />
