@@ -26,7 +26,7 @@ class Clock extends React.Component {
 
     render() {
         return (
-            <div style={{color: "white" }}>
+            <div style={{ color: "white" }}>
                 <h2>{this.state.date.toLocaleTimeString()}</h2>
             </div>
         );
@@ -36,8 +36,17 @@ class Clock extends React.Component {
 export default function Homepage() {
     return (
         <div className="container">
-            <Jumbotron title="Welcome" subtitle="Thank you for stopping by I look forward to working with you! =]"/>
+            <Jumbotron title="Jordan Johnson" subtitle="Full-Stack Web Developer" />
             <Clock />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
     );
 }

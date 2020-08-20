@@ -10,7 +10,7 @@ function Projects({ history }) {
 
     return (
         <div>
-            <Jumbotron title="Web Applications" />
+            <Jumbotron title="Web Apps" />
             {/* <button type="button" className="btn btn-secondary" onClick={() => goto()}>University Education</button> */}
             <ProjectContainer />
         </div>

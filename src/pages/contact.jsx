@@ -26,6 +26,10 @@ export default function Contact() {
                                 <button type="submit" className="btn btn-light">Submit</button>
                             </div>
                         </form>
+                        <br/>
+                        <br/>
+                        <br/>
+                        <br/>
                     </div>
                 </div>
             </div>

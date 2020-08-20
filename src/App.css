@@ -2,7 +2,8 @@
   text-align: center;
 }
 body{
-  background-color: rgb(40,44,49);
+  /* background-color: rgb(40,44,49); */
+  background-image: url('./assets/pictures/colorWaves.png');
   text-align: center;
   color: white;
 }
