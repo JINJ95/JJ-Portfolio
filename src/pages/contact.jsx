@@ -4,7 +4,7 @@ import Jumbotron from '../components/Jumbotron'
 export default function Contact() {
     return (
         <div className="container">
-            <Jumbotron title="Connect With Me Anytime" />
+            <Jumbotron title="Connect With Me Anytime" subtitle="jordaninjohnson@gmail.com" />
             <div className="container">
                 <div className="row">
                     <div className="col-6 container justify-content-center">
