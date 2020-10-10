@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-transparent">
-            <Link className="navbar-brand" to="/">JJ</Link>
+            <Link className="navbar-brand" to="/">Jordan Johnson</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>

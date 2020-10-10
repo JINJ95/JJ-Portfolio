@@ -7,13 +7,13 @@ import Water from '../assets/pictures/water.jpeg'
 import Dogs from '../assets/pictures/dogs.JPG'
 import Snow from '../assets/pictures/snow.JPG'
 import KarimNI from '../assets/pictures/KarimNI.JPG'
+import Jumbotron from '../components/Jumbotron'
 
 
 export default function About() {
     return (
         <div className="container">
-            <br />
-            <br />
+            <Jumbotron title="Jordan Johnson" subtitle="Exploring, Learning, and Creating The Future!" />
             <div className="row">
                 <div className="col">
                     <div className="card bg-transparent" style={{ width: 18 + 'em' }}>
@@ -34,10 +34,29 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <Jumbotron title="“Technology like art is a soaring exercise of the human imagination.”" subtitle='– Daniel Bell' />
+            <Jumbotron title='Proficient Languages and Technologies' subtitle="I am not limited to these technologies. I am continuously researching and learning new languages and technologies"/>
+            <div className="row">
+                <div className="col-4">
+                    <div className="list-group" id="list-tab" role="tablist">
+                        <a className="list-group-item list-group-item-action active" id="list-Frontend-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Frontend</a>
+                        <a className="list-group-item list-group-item-action" id="list-Backend-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Backend</a>
+                        <a className="list-group-item list-group-item-action" id="list-More-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">More</a>
+                    </div>
+                </div>
+                <div className="col-8">
+                    <div className="tab-content" id="nav-tabContent">
+                        <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-Frontend-list">HTML5, CSS, React, JQuery, Javascript, ES6, Bootstrap</div>
+                        <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-Backend-list">MySQL, MongoDB, NoSQL, PHP, Express.js, Node.js, Handlebars</div>
+                        <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-More-list">Java, Python, Amazon Web Services, Google Firebase</div>
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <Jumbotron title="Fun Stuff!" subtitle='These are some fun pictures that help me describe what I do for Fun!' />
             <div>
                 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
@@ -92,7 +111,7 @@ export default function About() {
                     </a>
                 </div>
             </div>
-            
+
             <br />
             <br />
             <br />
