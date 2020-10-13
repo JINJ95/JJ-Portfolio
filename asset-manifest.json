@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/JJ-Portfolio/static/css/main.3c48443c.chunk.css",
-    "main.js": "/JJ-Portfolio/static/js/main.baf86aa1.chunk.js",
-    "main.js.map": "/JJ-Portfolio/static/js/main.baf86aa1.chunk.js.map",
+    "main.js": "/JJ-Portfolio/static/js/main.b62e62e3.chunk.js",
+    "main.js.map": "/JJ-Portfolio/static/js/main.b62e62e3.chunk.js.map",
     "runtime-main.js": "/JJ-Portfolio/static/js/runtime-main.73667d9d.js",
     "runtime-main.js.map": "/JJ-Portfolio/static/js/runtime-main.73667d9d.js.map",
-    "static/js/2.8725717b.chunk.js": "/JJ-Portfolio/static/js/2.8725717b.chunk.js",
-    "static/js/2.8725717b.chunk.js.map": "/JJ-Portfolio/static/js/2.8725717b.chunk.js.map",
+    "static/js/2.ccdf17bc.chunk.js": "/JJ-Portfolio/static/js/2.ccdf17bc.chunk.js",
+    "static/js/2.ccdf17bc.chunk.js.map": "/JJ-Portfolio/static/js/2.ccdf17bc.chunk.js.map",
     "index.html": "/JJ-Portfolio/index.html",
-    "precache-manifest.e0b7a2e38ceb5242cf6396eca093941a.js": "/JJ-Portfolio/precache-manifest.e0b7a2e38ceb5242cf6396eca093941a.js",
+    "precache-manifest.c538a5e2645fe0e1172ea23d8f21c2e1.js": "/JJ-Portfolio/precache-manifest.c538a5e2645fe0e1172ea23d8f21c2e1.js",
     "service-worker.js": "/JJ-Portfolio/service-worker.js",
     "static/css/main.3c48443c.chunk.css.map": "/JJ-Portfolio/static/css/main.3c48443c.chunk.css.map",
-    "static/js/2.8725717b.chunk.js.LICENSE.txt": "/JJ-Portfolio/static/js/2.8725717b.chunk.js.LICENSE.txt",
+    "static/js/2.ccdf17bc.chunk.js.LICENSE.txt": "/JJ-Portfolio/static/js/2.ccdf17bc.chunk.js.LICENSE.txt",
     "static/media/Budget-Tracker.png": "/JJ-Portfolio/static/media/Budget-Tracker.4544f2fd.png",
     "static/media/Certificate.pdf": "/JJ-Portfolio/static/media/Certificate.9a5235a6.pdf",
     "static/media/Jordan Johnson Resume 2020.pdf": "/JJ-Portfolio/static/media/Jordan Johnson Resume 2020.61baebe6.pdf",
@@ -41,8 +41,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.73667d9d.js",
-    "static/js/2.8725717b.chunk.js",
+    "static/js/2.ccdf17bc.chunk.js",
     "static/css/main.3c48443c.chunk.css",
-    "static/js/main.baf86aa1.chunk.js"
+    "static/js/main.b62e62e3.chunk.js"
   ]
 }
