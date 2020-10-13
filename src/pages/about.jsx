@@ -36,7 +36,9 @@ export default function About() {
             </div>
             <br />
             <br />
+            <Jumbotron title=" " subtitle=" " />
             <Jumbotron title="“Technology like art is a soaring exercise of the human imagination.”" subtitle='– Daniel Bell' />
+            <Jumbotron title=" " subtitle=" " />
             <Jumbotron title='Proficient Languages and Technologies' subtitle="I am continuously researching and learning new languages and technologies"/>
             <div className="row">
                 <div className="col-4">
@@ -56,7 +58,8 @@ export default function About() {
             </div>
             <br />
             <br />
-            <Jumbotron title="Fun Stuff!" />
+            <Jumbotron title=" " subtitle=" " />
+            <Jumbotron title="Fun Pictures!" />
             <div>
                 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
