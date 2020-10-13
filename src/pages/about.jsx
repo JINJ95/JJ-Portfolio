@@ -56,7 +56,7 @@ export default function About() {
             </div>
             <br />
             <br />
-            <Jumbotron title="Fun Stuff!" subtitle='' />
+            <Jumbotron title="Fun Stuff!" />
             <div>
                 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
