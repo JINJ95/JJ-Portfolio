@@ -23,12 +23,12 @@ export default function ProjectContainer(props) {
                 <div className="row">
                     <div className="col-sm">
                         <Project
-                            title="MyAutoSpace"
+                            title="AutoSpace"
                             subtitle="Full-Stack Web Application"
-                            info="MyAutoSpace is a must have for any home mechanic.The simple interface allows users to document their vehicle's history and keep up with suggested maintenance."
+                            info="AutoSpace is a must have for any home mechanic.The simple interface allows users to document their vehicle's history and keep up with suggested maintenance."
                             imageLink={MyAutoSpace}
                             githubLink="https://github.com/JINJ95/myAutoSpace"
-                            deployedLink="" />
+                            deployedLink="https://young-lake-34599.herokuapp.com/" />
                     </div>
                     <div className="col-sm">
                         <Project
