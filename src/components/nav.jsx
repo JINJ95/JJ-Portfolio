@@ -11,11 +11,11 @@ export default function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <Link className="nav-item nav-link" to="/about">About</Link>
-                    <Link className="nav-item nav-link" to="/contact">Contact</Link>
-                    <Link className="nav-item nav-link" to="/resume">Resume</Link>
                     <Link className="nav-item nav-link" to="/projects">Web Apps</Link>
                     <Link className="nav-item nav-link" to="/uofu">University of Utah</Link>
                     <Link className="nav-item nav-link" to="/slcc">Salt Lake Community College</Link>
+                    <Link className="nav-item nav-link" to="/resume">Resume</Link>
+                    <Link className="nav-item nav-link" to="/contact">Contact</Link>
                 </div>
             </div>
         </nav>
