@@ -5,7 +5,8 @@ import Homepage from './pages/homepage';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Projects from './pages/projects';
-import Education from './pages/education';
+import UofU from './pages/uofu';
+import SLCC from './pages/slcc.jsx';
 import Resume from './pages/resume';
 import Navbar from './components/Nav';
 import Footer from './components/Footer';
@@ -29,8 +30,11 @@ function App() {
         <Route path="/contact">
           <Contact />
         </Route>
-        <Route path="/education">
-          <Education />
+        <Route path="/uofu">
+          <UofU />
+        </Route>
+        <Route path="/slcc">
+          <SLCC />
         </Route>
         <Route path="/resume">
           <Resume />

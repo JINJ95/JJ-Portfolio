@@ -12,9 +12,10 @@ export default function Navbar() {
                 <div className="navbar-nav">
                     <Link className="nav-item nav-link" to="/about">About</Link>
                     <Link className="nav-item nav-link" to="/contact">Contact</Link>
-                    <Link className="nav-item nav-link" to="/education">Education</Link>
                     <Link className="nav-item nav-link" to="/resume">Resume</Link>
                     <Link className="nav-item nav-link" to="/projects">Web Apps</Link>
+                    <Link className="nav-item nav-link" to="/uofu">University of Utah</Link>
+                    <Link className="nav-item nav-link" to="/slcc">Salt Lake Community College</Link>
                 </div>
             </div>
         </nav>
