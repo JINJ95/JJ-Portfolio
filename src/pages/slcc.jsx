@@ -3,9 +3,18 @@ import { withRouter } from "react-router-dom"
 import Jumbotron from '../components/Jumbotron'
 
 function Education({ history }) {
-    // function goto() {
-    //     history.push(`/projects`)
-    // }
+    function gotoMyself() {
+        history.push(`/myselfAsACommunicator`)
+    }
+    function gotoAstronomy() {
+        history.push(`/astronomy`)
+    }
+    function gotoMusic() {
+        history.push(`/music`)
+    }
+    function gotoLostTreasure() {
+        history.push(`/lostTreasure`)
+    }
 
     return (
         <div className="container">
@@ -19,10 +28,39 @@ function Education({ history }) {
                             <th scope="col">Course</th>
                             <th scope="col">Title</th>
                             <th scope="col">Grade</th>
+                            <th scope="col">Signature Assignment</th>
                         </tr>
                     </thead>
                     <tbody>
-                    <tr>
+                        <tr>
+                            <td>COMM</td>
+                            <td>1010</td>
+                            <td>Elements of Effective Communication</td>
+                            <td>A</td>
+                            <td><button onClick={() => gotoMyself()}>Myself As a Communicator</button></td>
+                        </tr>
+                        <tr>
+                            <td>MUSC</td>
+                            <td>1080</td>
+                            <td>World Music</td>
+                            <td>A</td>
+                            <td><button onClick={() => gotoMusic()}>Musical Culture Research</button></td>
+                        </tr>
+                        <tr>
+                            <td>PHYS</td>
+                            <td>1040</td>
+                            <td>Elementary Astronomy</td>
+                            <td>B</td>
+                            <td><button onClick={() => gotoAstronomy()}>Astronomy Conversation</button></td>
+                        </tr>
+                        <tr>
+                            <td>MATH</td>
+                            <td>1060</td>
+                            <td>Trigonometry</td>
+                            <td>B</td>
+                            <td><button onClick={() => gotoLostTreasure()}>Lost Treasure!</button></td>
+                        </tr>
+                        <tr>
                             <td>CSIS</td>
                             <td>2420</td>
                             <td>Algorithms and Data Structures</td>
@@ -38,7 +76,7 @@ function Education({ history }) {
                             <td>MATH</td>
                             <td>1210</td>
                             <td>Calculus I</td>
-                            <td>B</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <td>CSIS</td>
@@ -56,7 +94,7 @@ function Education({ history }) {
                             <td>MATH</td>
                             <td>1220</td>
                             <td>Calculus II</td>
-                            <td>B</td>
+                            <td>-</td>
                         </tr>
                         <tr>
                             <td>CSIS</td>
@@ -155,12 +193,6 @@ function Education({ history }) {
                             <td>B</td>
                         </tr>
                         <tr>
-                            <td>MATH</td>
-                            <td>1060</td>
-                            <td>Trigonometry</td>
-                            <td>B</td>
-                        </tr>
-                        <tr>
                             <td>BIOL</td>
                             <td>1610 / 1615</td>
                             <td>College Biology</td>
@@ -201,24 +233,6 @@ function Education({ history }) {
                             <td>1100</td>
                             <td>Medical Terminology</td>
                             <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>COMM</td>
-                            <td>1010</td>
-                            <td>Elements of Effective Communication</td>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>MUSC</td>
-                            <td>1080</td>
-                            <td>World Music</td>
-                            <td>A</td>
-                        </tr>
-                        <tr>
-                            <td>PHYS</td>
-                            <td>1040</td>
-                            <td>Elementary Astronomy</td>
-                            <td>B</td>
                         </tr>
                     </tbody>
                 </table>

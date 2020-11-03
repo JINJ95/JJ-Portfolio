@@ -10,6 +10,10 @@ import SLCC from './pages/slcc.jsx';
 import Resume from './pages/resume';
 import Navbar from './components/Nav';
 import Footer from './components/Footer';
+import Myself from './pages/signatureAssignments/COMM/myselfAsACommunicator';
+import Astronomy from './pages/signatureAssignments/PHYS/astronomyConversation';
+import Music from './pages/signatureAssignments/MUSIC/musicalCulture';
+import LostTreasure from './pages/signatureAssignments/MATH1060/lostTreasure';
 
 
 function App() {
@@ -41,6 +45,18 @@ function App() {
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/myselfAsACommunicator">
+          <Myself />
+        </Route>
+        <Route path="/astronomy">
+          <Astronomy />
+        </Route>
+        <Route path="/music">
+          <Music />
+        </Route>
+        <Route path="/lostTreasure">
+          <LostTreasure />
         </Route>
       </Switch>
       <Footer />
