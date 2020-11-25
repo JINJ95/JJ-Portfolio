@@ -22,9 +22,6 @@ export default function About() {
                 </div>
                 <div className="col">
                     <div className="card bg-transparent" style={{ width: 18 + 'em' }}>
-                        <div className="card-body">
-                            <p style={{ color: 'white' }} className="card-text">I am Motivated and Fascinated about Living Life and Creating Software that improves our Quality of Life!</p>
-                        </div>
                         <img src={SkynI} className="card-img-top" alt="Me" />
                     </div>
                 </div>
@@ -39,20 +36,44 @@ export default function About() {
             <Jumbotron title=" " subtitle=" " />
             <Jumbotron title="“Technology like art is a soaring exercise of the human imagination.”" subtitle='– Daniel Bell' />
             <Jumbotron title=" " subtitle=" " />
-            <Jumbotron title='Proficient Languages and Technologies' subtitle="I am continuously researching and learning new languages and technologies"/>
+            <Jumbotron title='Proficient Languages and Technologies' subtitle="I am continuously researching and learning new languages and technologies" />
             <div className="row">
                 <div className="col-4">
                     <div className="list-group" id="list-tab" role="tablist">
-                        <a className="list-group-item list-group-item-dark list-group-item-action active" id="list-Frontend-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Frontend</a>
-                        <a className="list-group-item list-group-item-dark list-group-item-action" id="list-Backend-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Backend</a>
-                        <a className="list-group-item list-group-item-dark list-group-item-action" id="list-More-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">More</a>
+                        <a className="list-group-item list-group-item-info list-group-item-action active" id="list-Frontend-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Frontend</a>
+                        <a className="list-group-item list-group-item-info list-group-item-action" id="list-Backend-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Backend</a>
+                        <a className="list-group-item list-group-item-info list-group-item-action" id="list-More-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">More</a>
                     </div>
                 </div>
                 <div className="col-8">
                     <div className="tab-content" id="nav-tabContent">
-                        <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-Frontend-list" style={{ fontSize: "350%" }}>HTML5, CSS, React, JQuery, Javascript, ES6, Bootstrap</div>
-                        <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-Backend-list" style={{ fontSize: "350%" }}>MySQL, MongoDB, NoSQL, PHP, Express.js, Node.js, Handlebars</div>
-                        <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-More-list" style={{ fontSize: "350%" }}>Java, Python, Amazon Web Services, Google Firebase</div>
+                        <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-Frontend-list" style={{ fontSize: "300%" }}>
+                        {`
+                        | | HTML5 |
+                        | CSS |
+                        | React |
+                        | JQuery |
+                        | Javascript |
+                        | ES6 |
+                        | Bootstrap | |
+                        `}</div>
+                        <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-Backend-list" style={{ fontSize: "350%" }}>
+                        {`
+                        | | MySQL |
+                        | MongoDB |
+                        | NoSQL |
+                        | PHP |
+                        | Express.js | 
+                        | Node.js |
+                        | Handlebars | |
+                        `}</div>
+                        <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-More-list" style={{ fontSize: "350%" }}>
+                        {`
+                        || Java |
+                        | Python|
+                        | Amazon Web Services |
+                        | Google Firebase ||
+                        `}</div>
                     </div>
                 </div>
             </div>

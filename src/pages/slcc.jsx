@@ -20,8 +20,7 @@ function Education({ history }) {
         <div className="container">
             <div>
                 <Jumbotron title="Salt Lake Community College" subtitle="Associate of Science in Computer Science" />
-                <h1>Completed Courses</h1>
-                <table class="table table-dark">
+                <table class="table table-info">
                     <thead>
                         <tr>
                             <th scope="col">Subject</th>
@@ -37,28 +36,28 @@ function Education({ history }) {
                             <td>1010</td>
                             <td>Elements of Effective Communication</td>
                             <td>A</td>
-                            <td><button onClick={() => gotoMyself()}>Myself As a Communicator</button></td>
+                            <td><button className="btn btn-info" onClick={() => gotoMyself()}>Myself As a Communicator</button></td>
                         </tr>
                         <tr>
                             <td>MUSC</td>
                             <td>1080</td>
                             <td>World Music</td>
                             <td>A</td>
-                            <td><button onClick={() => gotoMusic()}>Musical Culture Research</button></td>
+                            <td><button className="btn btn-info" onClick={() => gotoMusic()}>Musical Culture Research</button></td>
                         </tr>
                         <tr>
                             <td>PHYS</td>
                             <td>1040</td>
                             <td>Elementary Astronomy</td>
                             <td>B</td>
-                            <td><button onClick={() => gotoAstronomy()}>Astronomy Conversation</button></td>
+                            <td><button className="btn btn-info" onClick={() => gotoAstronomy()}>Astronomy Conversation</button></td>
                         </tr>
                         <tr>
                             <td>MATH</td>
                             <td>1060</td>
                             <td>Trigonometry</td>
                             <td>B</td>
-                            <td><button onClick={() => gotoLostTreasure()}>Lost Treasure!</button></td>
+                            <td><button className="btn btn-info" onClick={() => gotoLostTreasure()}>Lost Treasure!</button></td>
                         </tr>
                         <tr>
                             <td>CSIS</td>
