@@ -14,29 +14,8 @@ export default function About() {
     return (
         <div className="container">
             <Jumbotron title="Jordan Johnson" subtitle="Exploring, Learning, and Creating The Future!" />
-            <div className="row">
-                <div className="col">
-                    <div className="card bg-transparent" style={{ width: 18 + 'em' }}>
-                        <img src={Richfield} className="card-img-top" alt="Me" />
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card bg-transparent" style={{ width: 18 + 'em' }}>
-                        <img src={SkynI} className="card-img-top" alt="Me" />
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card bg-transparent" style={{ width: 18 + 'em' }}>
-                        <img src={KarimNI} className="card-img-top" alt="Me" />
-                    </div>
-                </div>
-            </div>
-            <br />
-            <br />
-            <Jumbotron title=" " subtitle=" " />
             <Jumbotron title="“Technology like art is a soaring exercise of the human imagination.”" subtitle='– Daniel Bell' />
-            <Jumbotron title=" " subtitle=" " />
-            <Jumbotron title='Proficient Languages and Technologies' subtitle="I am continuously researching and learning new languages and technologies" />
+            <Jumbotron title='Languages and Technologies' subtitle="I am continuously researching and learning new languages and technologies" />
             <div className="row">
                 <div className="col-4">
                     <div className="list-group" id="list-tab" role="tablist">
@@ -81,6 +60,23 @@ export default function About() {
             <br />
             <Jumbotron title=" " subtitle=" " />
             <Jumbotron title="Fun Pictures!" />
+            <div className="row">
+                <div className="col">
+                    <div className="card bg-transparent" style={{ width: 18 + 'em', height: 18 +'em' }}>
+                        <img src={Richfield} className="card-img-top" alt="Me" />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card bg-transparent" style={{ width: 18 + 'em' }}>
+                        <img src={SkynI} className="card-img-top" alt="Me" />
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card bg-transparent" style={{ width: 18 + 'em' }}>
+                        <img src={KarimNI} className="card-img-top" alt="Me" />
+                    </div>
+                </div>
+            </div>
             <div>
                 <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
