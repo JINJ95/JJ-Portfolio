@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/JJ-Portfolio/static/css/main.3c48443c.chunk.css",
-    "main.js": "/JJ-Portfolio/static/js/main.b43e4199.chunk.js",
-    "main.js.map": "/JJ-Portfolio/static/js/main.b43e4199.chunk.js.map",
+    "main.css": "/JJ-Portfolio/static/css/main.25d3555b.chunk.css",
+    "main.js": "/JJ-Portfolio/static/js/main.39772144.chunk.js",
+    "main.js.map": "/JJ-Portfolio/static/js/main.39772144.chunk.js.map",
     "runtime-main.js": "/JJ-Portfolio/static/js/runtime-main.73667d9d.js",
     "runtime-main.js.map": "/JJ-Portfolio/static/js/runtime-main.73667d9d.js.map",
     "static/js/2.06672354.chunk.js": "/JJ-Portfolio/static/js/2.06672354.chunk.js",
     "static/js/2.06672354.chunk.js.map": "/JJ-Portfolio/static/js/2.06672354.chunk.js.map",
     "index.html": "/JJ-Portfolio/index.html",
-    "precache-manifest.4b06982ea1226aa3857a6cafa67cb8b1.js": "/JJ-Portfolio/precache-manifest.4b06982ea1226aa3857a6cafa67cb8b1.js",
+    "precache-manifest.46c83235cf62fdfb9224883efe383610.js": "/JJ-Portfolio/precache-manifest.46c83235cf62fdfb9224883efe383610.js",
     "service-worker.js": "/JJ-Portfolio/service-worker.js",
-    "static/css/main.3c48443c.chunk.css.map": "/JJ-Portfolio/static/css/main.3c48443c.chunk.css.map",
+    "static/css/main.25d3555b.chunk.css.map": "/JJ-Portfolio/static/css/main.25d3555b.chunk.css.map",
     "static/js/2.06672354.chunk.js.LICENSE.txt": "/JJ-Portfolio/static/js/2.06672354.chunk.js.LICENSE.txt",
     "static/media/Budget-Tracker.png": "/JJ-Portfolio/static/media/Budget-Tracker.4544f2fd.png",
     "static/media/Certificate.pdf": "/JJ-Portfolio/static/media/Certificate.9a5235a6.pdf",
@@ -22,9 +22,9 @@
     "static/media/Powell.jpeg": "/JJ-Portfolio/static/media/Powell.34d3ebad.jpeg",
     "static/media/Sky&I.JPG": "/JJ-Portfolio/static/media/Sky&I.55900f3a.JPG",
     "static/media/WorkoutTracker.png": "/JJ-Portfolio/static/media/WorkoutTracker.94b629dc.png",
+    "static/media/App.css": "/JJ-Portfolio/static/media/blueGreen.16ed98d9.png",
     "static/media/burgers.png": "/JJ-Portfolio/static/media/burgers.c0852bbe.png",
     "static/media/codingQuiz.png": "/JJ-Portfolio/static/media/codingQuiz.e42842f2.png",
-    "static/media/App.css": "/JJ-Portfolio/static/media/colorWaves.1b1e504b.png",
     "static/media/dogs.JPG": "/JJ-Portfolio/static/media/dogs.724f1a2b.JPG",
     "static/media/employeeDirectory.png": "/JJ-Portfolio/static/media/employeeDirectory.ace98da3.png",
     "static/media/employeeTracker.png": "/JJ-Portfolio/static/media/employeeTracker.e74595c0.png",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.73667d9d.js",
     "static/js/2.06672354.chunk.js",
-    "static/css/main.3c48443c.chunk.css",
-    "static/js/main.b43e4199.chunk.js"
+    "static/css/main.25d3555b.chunk.css",
+    "static/js/main.39772144.chunk.js"
   ]
 }

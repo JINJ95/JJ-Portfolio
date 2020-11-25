@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1dd16b777615e05f1c4c5b6851a9149",
+    "revision": "8e12569b047d42531064b6f20aa7b6b9",
     "url": "/JJ-Portfolio/index.html"
   },
   {
-    "revision": "abfeacc687575e4f6a8a",
-    "url": "/JJ-Portfolio/static/css/main.3c48443c.chunk.css"
+    "revision": "82cb072d67c46ccbc7a6",
+    "url": "/JJ-Portfolio/static/css/main.25d3555b.chunk.css"
   },
   {
     "revision": "46c2e235e40813855dab",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JJ-Portfolio/static/js/2.06672354.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "abfeacc687575e4f6a8a",
-    "url": "/JJ-Portfolio/static/js/main.b43e4199.chunk.js"
+    "revision": "82cb072d67c46ccbc7a6",
+    "url": "/JJ-Portfolio/static/js/main.39772144.chunk.js"
   },
   {
     "revision": "0e1f14a713c0744cb002",
@@ -64,16 +64,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/JJ-Portfolio/static/media/WorkoutTracker.94b629dc.png"
   },
   {
+    "revision": "16ed98d9cd678c88f7d2c7c9d4fea0e7",
+    "url": "/JJ-Portfolio/static/media/blueGreen.16ed98d9.png"
+  },
+  {
     "revision": "c0852bbe8c8717fe5925ee59f2161b66",
     "url": "/JJ-Portfolio/static/media/burgers.c0852bbe.png"
   },
   {
     "revision": "e42842f2f5763a611f53ac322a04eff1",
     "url": "/JJ-Portfolio/static/media/codingQuiz.e42842f2.png"
-  },
-  {
-    "revision": "1b1e504b9034d7abc478e4d46c640bae",
-    "url": "/JJ-Portfolio/static/media/colorWaves.1b1e504b.png"
   },
   {
     "revision": "724f1a2bbb5344cec7170bd650f469ee",
