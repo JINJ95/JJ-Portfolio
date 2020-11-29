@@ -1,6 +1,7 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
 import lostTreasure from '../../../assets/pictures/lostTreasure.pdf'
+import jjTreasure from '../../../assets/pictures/Math-1060-LostTreasure.pdf'
 import Jumbotron from '../../../components/Jumbotron'
 
 function LostTreasure() {
@@ -14,7 +15,7 @@ function LostTreasure() {
             <div class="media-body">
                 <Jumbotron title="Lost Treasure!" subtitle="by: Jordan Johnson" />
                 <div class="media">
-                    <iframe title="Comm" src={lostTreasure} width="100%" height="800" style={{ border: "none" }} />
+                    <iframe title="Comm" src={jjTreasure} width="100%" height="800" style={{ border: "none" }} />
                 </div>
             </div>
         </div>
