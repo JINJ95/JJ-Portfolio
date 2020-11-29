@@ -6,7 +6,7 @@ import Jumbotron from '../../../components/Jumbotron'
 function Music() {
     return (
         <div className="container">
-        <Jumbotron title="Music 1080: World Music" subtitle="ePortfolio / Signature Assignment" />
+        <Jumbotron title="Music 1080: World Music" subtitle="Signature Assignment" />
         <Jumbotron title="ePortfolio Signature Assignment Overview" subtitle="Salt Lake Community College Requirements:" />
         <div class="media">
             <iframe title="Comm" src={worldMusic} width="100%" height="800" style={{ border: "none" }} />
