@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e1165ee5523df62ecea2399c23b0039",
+    "revision": "77d5941cde7dd8f199f6074a8d3f3ef8",
     "url": "/JJ-Portfolio/index.html"
   },
   {
-    "revision": "f9520e6b7dd60d10bca4",
+    "revision": "0970f27b3a3b5fee7850",
     "url": "/JJ-Portfolio/static/css/main.25d3555b.chunk.css"
   },
   {
-    "revision": "4c6cb6ea95b6bb0d4066",
-    "url": "/JJ-Portfolio/static/js/2.9b8e9044.chunk.js"
+    "revision": "9e0cbbe1614458453729",
+    "url": "/JJ-Portfolio/static/js/2.4a066be9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/JJ-Portfolio/static/js/2.9b8e9044.chunk.js.LICENSE.txt"
+    "url": "/JJ-Portfolio/static/js/2.4a066be9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9520e6b7dd60d10bca4",
-    "url": "/JJ-Portfolio/static/js/main.3d0895a9.chunk.js"
+    "revision": "0970f27b3a3b5fee7850",
+    "url": "/JJ-Portfolio/static/js/main.c62f41f0.chunk.js"
   },
   {
     "revision": "0e1f14a713c0744cb002",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ec5d9de30a5e8dfad13fcb682ac7a844",
     "url": "/JJ-Portfolio/static/media/KarimNI.ec5d9de3.JPG"
+  },
+  {
+    "revision": "c1c3bec52024a71cc8b1c9b967a76771",
+    "url": "/JJ-Portfolio/static/media/Math-1060-LostTreasure.c1c3bec5.pdf"
   },
   {
     "revision": "6d66b2da60c9a244393d739080323abd",
