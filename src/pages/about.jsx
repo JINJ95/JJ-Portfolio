@@ -13,9 +13,15 @@ import Jumbotron from '../components/Jumbotron'
 export default function About() {
     return (
         <div className="container">
-            <Jumbotron title="Jordan Johnson" subtitle="Exploring, Learning, and Creating The Future!" />
+            <Jumbotron title="This is Jordan Johnson..." />
+            <Jumbotron title="I work hard and play hard, everyday all day!" />
+            <Jumbotron title='“Let’s go invent tomorrow instead of worrying about what happened yesterday.”' subtitle='– Steve Jobs' />
+            <Jumbotron title="I Love Making All Kinds of Music!" subtitle="Check out the link to my SoundCloud!"/>
+            <Jumbotron title="I am an Entrepreneaur!" subtitle="I am up for a good oppurtunity! Connect with me anytime!"/>
+            <Jumbotron title="I want everyone to Live Life and Be Happy!" subtitle="No matter who you are or what you are doing, enjoy this moment as much as possible!=]"/>
+            <Jumbotron title="I create Software" subtitle="I am majoring in Computer Science to build tools and use my knowledge to build an amazing future for all!" />
             <Jumbotron title="“Technology like art is a soaring exercise of the human imagination.”" subtitle='– Daniel Bell' />
-            <Jumbotron title='Languages and Technologies' subtitle="I am continuously researching and learning new languages and technologies" />
+            <Jumbotron title='Programming Languages, and Technologies!' subtitle="My Current Favorite Programming Languages and Technologies!" />
             <div className="row">
                 <div className="col-4">
                     <div className="list-group" id="list-tab" role="tablist">
@@ -33,8 +39,8 @@ export default function About() {
                         | React |
                         | JQuery |
                         | Javascript |
-                        | ES6 |
-                        | Bootstrap | |
+                        | ES6
+                        || Bootstrap | |
                         `}</div>
                         <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-Backend-list" style={{ fontSize: "350%" }}>
                         {`
@@ -48,18 +54,16 @@ export default function About() {
                         `}</div>
                         <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-More-list" style={{ fontSize: "350%" }}>
                         {`
-                        || Java |
+                        | | Java |
                         | Python|
                         | Amazon Web Services |
-                        | Google Firebase ||
+                        | Google Firebase | |
                         `}</div>
                     </div>
                 </div>
             </div>
-            <br />
-            <br />
             <Jumbotron title=" " subtitle=" " />
-            <Jumbotron title="Fun Pictures!" />
+            <Jumbotron title="Fun Pictures from Jordan Johnson!" />
             <div className="row">
                 <div className="col">
                     <div className="card bg-transparent" style={{ width: 18 + 'em', height: 18 +'em' }}>

@@ -36,15 +36,8 @@ import Jumbotron from '../components/Jumbotron';
 export default function Homepage() {
     return (
         <div className="container">
-            <Jumbotron title='"I create content, software, and full stack web applications in order to improve our quality of life!"' subtitle='- Jordan Johnson' />
-            <br/><br/><br/><br/>
-            {/* <Jumbotron title="Jordan Johnson" subtitle="Full-Stack Web Developer" /> */}
-            <Jumbotron title='“Let’s go invent tomorrow instead of worrying about what happened yesterday.”' subtitle='– Steve Jobs' />
-            {/* <Clock /> */}
-            <br />
-            <br />
-            <br />
-            <br />
+            <Jumbotron title='"I solve problems, create algorithms, and produce software to improve our quality of life!"' subtitle='- Jordan Johnson' />
+            
         </div>
     );
 }
