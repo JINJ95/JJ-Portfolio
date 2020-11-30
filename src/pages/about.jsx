@@ -13,15 +13,15 @@ import Jumbotron from '../components/Jumbotron'
 export default function About() {
     return (
         <div className="container">
-            <Jumbotron title="This is Jordan Johnson..." />
-            <Jumbotron title="I work hard and play hard, everyday all day!" />
+            <Jumbotron title="Jordan Johnson!" subtitle="I work hard and play hard, everyday all day!" />
             <Jumbotron title='“Let’s go invent tomorrow instead of worrying about what happened yesterday.”' subtitle='– Steve Jobs' />
-            <Jumbotron title="I Love Making All Kinds of Music!" subtitle="Check out the link to my SoundCloud!"/>
-            <Jumbotron title="I am an Entrepreneaur!" subtitle="I am up for a good oppurtunity! Connect with me anytime!"/>
-            <Jumbotron title="I want everyone to Live Life and Be Happy!" subtitle="No matter who you are or what you are doing, enjoy this moment as much as possible!=]"/>
-            <Jumbotron title="I create Software" subtitle="I am majoring in Computer Science to build tools and use my knowledge to build an amazing future for all!" />
+            <Jumbotron title="Software Engineer" subtitle="I build technology that makes the world a better place." />
+            <Jumbotron title="Full Stack Web Developer" subtitle="Currently building tools and networking to create an amazing future!" />
+            <Jumbotron title="University of Utah Student" subtitle="Computer Science Major" />
+            <Jumbotron title="Entrepreneaur!" subtitle="I am up for a good oppurtunity! Connect with me anytime!" />
+            <Jumbotron title="Music Producer" subtitle="Check out the link to my SoundCloud!" />
             <Jumbotron title="“Technology like art is a soaring exercise of the human imagination.”" subtitle='– Daniel Bell' />
-            <Jumbotron title='Programming Languages, and Technologies!' subtitle="My Current Favorite Programming Languages and Technologies!" />
+            <Jumbotron title='Programming Languages, Skills, and Technologies' subtitle="" />
             <div className="row">
                 <div className="col-4">
                     <div className="list-group" id="list-tab" role="tablist">
@@ -33,7 +33,7 @@ export default function About() {
                 <div className="col-8">
                     <div className="tab-content" id="nav-tabContent">
                         <div className="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-Frontend-list" style={{ fontSize: "300%" }}>
-                        {`
+                            {`
                         | | HTML5 |
                         | CSS |
                         | React |
@@ -43,7 +43,7 @@ export default function About() {
                         || Bootstrap | |
                         `}</div>
                         <div className="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-Backend-list" style={{ fontSize: "350%" }}>
-                        {`
+                            {`
                         | | MySQL |
                         | MongoDB |
                         | NoSQL |
@@ -53,7 +53,7 @@ export default function About() {
                         | Handlebars | |
                         `}</div>
                         <div className="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-More-list" style={{ fontSize: "350%" }}>
-                        {`
+                            {`
                         | | Java |
                         | Python|
                         | Amazon Web Services |
@@ -62,11 +62,12 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <Jumbotron title=" " subtitle=" " />
-            <Jumbotron title="Fun Pictures from Jordan Johnson!" />
+            <Jumbotron title="" />
+            <Jumbotron title="I want everyone to Live Life and Be Happy!" subtitle="No matter who you are or what you are doing, enjoy this moment as much as possible!=]" />
+            <Jumbotron title="Fun Pictures!" />
             <div className="row">
                 <div className="col">
-                    <div className="card bg-transparent" style={{ width: 18 + 'em', height: 18 +'em' }}>
+                    <div className="card bg-transparent" style={{ width: 18 + 'em', height: 18 + 'em' }}>
                         <img src={Richfield} className="card-img-top" alt="Me" />
                     </div>
                 </div>
