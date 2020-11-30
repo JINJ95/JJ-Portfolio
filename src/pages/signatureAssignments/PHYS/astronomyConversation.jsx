@@ -2,6 +2,7 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import astronomyConvo from '../../../assets/pictures/astronomyConvo.pdf'
 import ePortfolioOverview from '../../../assets/pictures/astronomyEPortfolio.pdf'
+import reflectiveWriting from '../../../assets/pictures/AstronomyEPortfolioReflection.pdf'
 import Jumbotron from '../../../components/Jumbotron'
 
 function Astronomy() {
@@ -16,6 +17,12 @@ function Astronomy() {
                 <Jumbotron title="Astronomy Conversation" subtitle="by: Jordan Johnson" />
                 <div class="media">
                     <iframe title="Comm" src={astronomyConvo} width="100%" height="800" style={{ border: "none" }} />
+                </div>
+            </div>
+            <div class="media-body">
+                <Jumbotron title="Reflective Writing" subtitle="by: Jordan Johnson" />
+                <div class="media">
+                    <iframe title="Comm" src={reflectiveWriting} width="100%" height="800" style={{ border: "none" }} />
                 </div>
             </div>
         </div>
