@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/JJ-Portfolio/static/css/main.25d3555b.chunk.css",
-    "main.js": "/JJ-Portfolio/static/js/main.2bd12e18.chunk.js",
-    "main.js.map": "/JJ-Portfolio/static/js/main.2bd12e18.chunk.js.map",
+    "main.js": "/JJ-Portfolio/static/js/main.2593b715.chunk.js",
+    "main.js.map": "/JJ-Portfolio/static/js/main.2593b715.chunk.js.map",
     "runtime-main.js": "/JJ-Portfolio/static/js/runtime-main.73667d9d.js",
     "runtime-main.js.map": "/JJ-Portfolio/static/js/runtime-main.73667d9d.js.map",
-    "static/js/2.14ab7519.chunk.js": "/JJ-Portfolio/static/js/2.14ab7519.chunk.js",
-    "static/js/2.14ab7519.chunk.js.map": "/JJ-Portfolio/static/js/2.14ab7519.chunk.js.map",
+    "static/js/2.c64f0078.chunk.js": "/JJ-Portfolio/static/js/2.c64f0078.chunk.js",
+    "static/js/2.c64f0078.chunk.js.map": "/JJ-Portfolio/static/js/2.c64f0078.chunk.js.map",
     "index.html": "/JJ-Portfolio/index.html",
-    "precache-manifest.911d1b43962d9b757b2d9ba9a8463c15.js": "/JJ-Portfolio/precache-manifest.911d1b43962d9b757b2d9ba9a8463c15.js",
+    "precache-manifest.7d6475da26d822391878517c89beea98.js": "/JJ-Portfolio/precache-manifest.7d6475da26d822391878517c89beea98.js",
     "service-worker.js": "/JJ-Portfolio/service-worker.js",
     "static/css/main.25d3555b.chunk.css.map": "/JJ-Portfolio/static/css/main.25d3555b.chunk.css.map",
-    "static/js/2.14ab7519.chunk.js.LICENSE.txt": "/JJ-Portfolio/static/js/2.14ab7519.chunk.js.LICENSE.txt",
+    "static/js/2.c64f0078.chunk.js.LICENSE.txt": "/JJ-Portfolio/static/js/2.c64f0078.chunk.js.LICENSE.txt",
     "static/media/AstronomyEPortfolioReflection.pdf": "/JJ-Portfolio/static/media/AstronomyEPortfolioReflection.c4bcbc15.pdf",
     "static/media/Budget-Tracker.png": "/JJ-Portfolio/static/media/Budget-Tracker.4544f2fd.png",
     "static/media/Certificate.pdf": "/JJ-Portfolio/static/media/Certificate.9a5235a6.pdf",
@@ -39,6 +39,7 @@
     "static/media/lostTreasure.pdf": "/JJ-Portfolio/static/media/lostTreasure.48820c50.pdf",
     "static/media/myAutoSpace.png": "/JJ-Portfolio/static/media/myAutoSpace.1fd50f9b.png",
     "static/media/noteTaker.gif": "/JJ-Portfolio/static/media/noteTaker.30f2a1bc.gif",
+    "static/media/printhandler.ashx.pdf": "/JJ-Portfolio/static/media/printhandler.ashx.aae0e00b.pdf",
     "static/media/readmeGenerator.gif": "/JJ-Portfolio/static/media/readmeGenerator.b681300a.gif",
     "static/media/richfield.JPG": "/JJ-Portfolio/static/media/richfield.842c4d4d.JPG",
     "static/media/snow.JPG": "/JJ-Portfolio/static/media/snow.56023034.JPG",
@@ -48,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.73667d9d.js",
-    "static/js/2.14ab7519.chunk.js",
+    "static/js/2.c64f0078.chunk.js",
     "static/css/main.25d3555b.chunk.css",
-    "static/js/main.2bd12e18.chunk.js"
+    "static/js/main.2593b715.chunk.js"
   ]
 }
