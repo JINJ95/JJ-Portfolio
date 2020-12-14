@@ -37,7 +37,7 @@ export default function Homepage() {
     return (
         <div className="container">
             <Jumbotron title='"I solve problems, create algorithms, and produce software to improve our quality of life!"' subtitle='- Jordan Johnson' />
-            
+            <Jumbotron title="" subtitle="" />
         </div>
     );
 }
