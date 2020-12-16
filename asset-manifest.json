@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/JJ-Portfolio/static/css/main.25d3555b.chunk.css",
-    "main.js": "/JJ-Portfolio/static/js/main.2593b715.chunk.js",
-    "main.js.map": "/JJ-Portfolio/static/js/main.2593b715.chunk.js.map",
+    "main.js": "/JJ-Portfolio/static/js/main.d25635a0.chunk.js",
+    "main.js.map": "/JJ-Portfolio/static/js/main.d25635a0.chunk.js.map",
     "runtime-main.js": "/JJ-Portfolio/static/js/runtime-main.73667d9d.js",
     "runtime-main.js.map": "/JJ-Portfolio/static/js/runtime-main.73667d9d.js.map",
-    "static/js/2.c64f0078.chunk.js": "/JJ-Portfolio/static/js/2.c64f0078.chunk.js",
-    "static/js/2.c64f0078.chunk.js.map": "/JJ-Portfolio/static/js/2.c64f0078.chunk.js.map",
+    "static/js/2.17e0fa6c.chunk.js": "/JJ-Portfolio/static/js/2.17e0fa6c.chunk.js",
+    "static/js/2.17e0fa6c.chunk.js.map": "/JJ-Portfolio/static/js/2.17e0fa6c.chunk.js.map",
     "index.html": "/JJ-Portfolio/index.html",
-    "precache-manifest.7d6475da26d822391878517c89beea98.js": "/JJ-Portfolio/precache-manifest.7d6475da26d822391878517c89beea98.js",
+    "precache-manifest.84d70f7b8bdc197d5619dbc3096a88ab.js": "/JJ-Portfolio/precache-manifest.84d70f7b8bdc197d5619dbc3096a88ab.js",
     "service-worker.js": "/JJ-Portfolio/service-worker.js",
     "static/css/main.25d3555b.chunk.css.map": "/JJ-Portfolio/static/css/main.25d3555b.chunk.css.map",
-    "static/js/2.c64f0078.chunk.js.LICENSE.txt": "/JJ-Portfolio/static/js/2.c64f0078.chunk.js.LICENSE.txt",
+    "static/js/2.17e0fa6c.chunk.js.LICENSE.txt": "/JJ-Portfolio/static/js/2.17e0fa6c.chunk.js.LICENSE.txt",
     "static/media/AstronomyEPortfolioReflection.pdf": "/JJ-Portfolio/static/media/AstronomyEPortfolioReflection.c4bcbc15.pdf",
     "static/media/Budget-Tracker.png": "/JJ-Portfolio/static/media/Budget-Tracker.4544f2fd.png",
     "static/media/Certificate.pdf": "/JJ-Portfolio/static/media/Certificate.9a5235a6.pdf",
@@ -20,6 +20,7 @@
     "static/media/KarimNI.JPG": "/JJ-Portfolio/static/media/KarimNI.ec5d9de3.JPG",
     "static/media/Math-1060-LostTreasure.pdf": "/JJ-Portfolio/static/media/Math-1060-LostTreasure.c1c3bec5.pdf",
     "static/media/Music1080ePortfolio.pdf": "/JJ-Portfolio/static/media/Music1080ePortfolio.6d66b2da.pdf",
+    "static/media/MyselfAsACommunicator.pdf": "/JJ-Portfolio/static/media/MyselfAsACommunicator.871f40da.pdf",
     "static/media/NewPasswordGenerator.png": "/JJ-Portfolio/static/media/NewPasswordGenerator.9f0d974b.png",
     "static/media/NewWeatherDashboard.png": "/JJ-Portfolio/static/media/NewWeatherDashboard.58385046.png",
     "static/media/NewWorkDayScheduler.png": "/JJ-Portfolio/static/media/NewWorkDayScheduler.431ac061.png",
@@ -49,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.73667d9d.js",
-    "static/js/2.c64f0078.chunk.js",
+    "static/js/2.17e0fa6c.chunk.js",
     "static/css/main.25d3555b.chunk.css",
-    "static/js/main.2593b715.chunk.js"
+    "static/js/main.d25635a0.chunk.js"
   ]
 }
