@@ -18,7 +18,7 @@ export default function About() {
             <Jumbotron title="Software Engineer" subtitle="I build technology that makes the world a better place." />
             <Jumbotron title="Full Stack Web Developer" subtitle="Currently building tools and networking to create an amazing future!" />
             <Jumbotron title="University of Utah Student" subtitle="Computer Science Major" />
-            <Jumbotron title="Entrepreneaur!" subtitle="I am up for a good oppurtunity! Connect with me anytime!" />
+            <Jumbotron title="Entrepreneur!" subtitle="I am up for a good oppurtunity! Connect with me anytime!" />
             <Jumbotron title="Music Producer" subtitle="Check out the link to my SoundCloud!" />
             <Jumbotron title="“Technology like art is a soaring exercise of the human imagination.”" subtitle='– Daniel Bell' />
             <Jumbotron title='Programming Languages, Skills, and Technologies' subtitle="" />
